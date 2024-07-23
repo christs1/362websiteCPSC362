@@ -18,13 +18,14 @@
     grid-template-columns: repeat(3, 1fr); /* Fixed three columns layout */
     gap: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .pagination {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .pagination button {
@@ -36,6 +37,7 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
+    margin-top: 10px;
 }
 
 .pagination button:disabled {
@@ -63,6 +65,10 @@
 
 .search-bar::placeholder {
     color: #aaa; /* Light gray for placeholder text, adjust if needed */
+}
+
+.pagination > span {
+    margin-top: 10px;
 }
 
 
