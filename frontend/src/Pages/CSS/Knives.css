@@ -1,0 +1,14 @@
+.knives{
+    margin-top: 50px;
+    color: white;
+}
+.knives h1{
+    margin: 100px;
+}
+.all-knives{
+    margin: 100px 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 80px;
+    color: white;
+}
