@@ -1,0 +1,51 @@
+.shop {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.knife-small {
+    flex: 1;
+}
+
+.knife-large {
+    flex: 2;
+}
+
+.knife-small img, .knife-large img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 50px;
+}
+
+.actions .btn {
+    padding: 50px 50px;
+    width: 130px;
+    height: 75px;
+    background-color: #ff4b4b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.actions .btn:hover {
+    background-color: #e64444;
+}

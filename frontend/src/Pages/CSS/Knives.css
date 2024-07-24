@@ -1,14 +1,45 @@
-.knives{
-    margin-top: 50px;
+.todays-selection {
+    text-align: center;
     color: white;
-}
-.knives h1{
-    margin: 100px;
-}
-.all-knives{
-    margin: 100px 150px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 80px;
+    margin-top: 140px;
+  }
+  
+  .knives {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
     color: white;
-}
+    margin-top: 110px;
+  }
+  
+  .center-knife {
+    transform: scale(1.2);
+  }
+  
+  .side-knife {
+    transform: scale(0.8);
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .actions .btn {
+    padding: 10px 25px;
+    background-color: #ff4b4b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .actions .btn:hover {
+    background-color: #e64444;
+  }
+  
