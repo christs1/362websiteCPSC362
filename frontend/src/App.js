@@ -13,7 +13,7 @@ import Footer from './Components/Footer/Footer';
 import bayonetbanner from './Components/Assets/Banners/bayonetbanner.png';
 import bowiebanner from './Components/Assets/Banners/bowieknifebanner.png';
 import Signup from './Pages/Signup';
-
+import SearchedKnives from './Pages/searchedknives';
 
 function App() {
   return (
@@ -52,6 +52,7 @@ function App() {
         <Route path='/cart' element={<Cart/>}/>
         <Route path='/login' element={<Loginsignup/>}/>
         <Route path='/signup' element={<Signup/>}/>
+        <Route path="/search" element={<SearchedKnives />} />
       </Routes>
       <Footer/>
       </BrowserRouter>
