@@ -34,7 +34,7 @@ export const Trending = () => {
         <div className='trending'>
             <input
                 type="text"
-                placeholder="Search Knives..."
+                placeholder="Search for Knives..."
                 className="search-bar"
                 value={searchQuery}
                 onChange={e => setSearchQuery(e.target.value)}
